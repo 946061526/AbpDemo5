@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RootLink.DncManage.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:RootLink.DncManage.Application.Contracts.PagingInput">
+            <summary>
+            分页输入参数
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Application.Contracts.PagingInput.Page">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Application.Contracts.PagingInput.Limit">
+            <summary>
+            限制条数
+            </summary>
+        </member>
+    </members>
+</doc>

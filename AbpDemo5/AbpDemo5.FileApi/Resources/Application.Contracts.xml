@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RootLink.AbpDemoManage.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:RootLink.AbpDemoManage.Application.Contracts.PagingInput">
+            <summary>
+            分页输入参数
+            </summary>
+        </member>
+        <member name="P:RootLink.AbpDemoManage.Application.Contracts.PagingInput.Page">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:RootLink.AbpDemoManage.Application.Contracts.PagingInput.Limit">
+            <summary>
+            限制条数
+            </summary>
+        </member>
+    </members>
+</doc>

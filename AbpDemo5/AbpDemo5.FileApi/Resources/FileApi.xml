@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RootLink.AbpDemoManage.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="M:RootLink.AbpDemoManage.HttpApi.Controllers.AuthController.GetAccessTokenAsync(System.String)">
+            <summary>
+            获取AccessToken
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RootLink.AbpDemoManage.HttpApi.Controllers.AuthController.VerifyToken(System.String)">
+            <summary>
+            验证Token是否合法
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RootLink.AbpDemoManage.HttpApi.Controllers.FileController.Add">
+            <summary>
+            新增文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RootLink.AbpDemoManage.HttpApi.Controllers.FileController.Delete">
+            <summary>
+            删除文件
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

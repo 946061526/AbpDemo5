@@ -1,0 +1,66 @@
+{
+  //Routes:������������Ķ���(�ͻ���)��ÿ������{}�������ã����ε�ַ�Ͷ�Ӧ���ε�ַ
+  "Routes": [
+    {
+      //��Downstream��ͷ�ģ���Ҫת�������η������ĵ�ַ(userAPIServices)����nginxת������
+      //��������Downstream��ͷ�ģ����һ��ת��url,ת����ַ��http://localhost:8881/api/user
+      "DownstreamPathTemplate": "/api/user/{url}",
+      "DownstreamScheme": "http",
+      //ת�������η������������Ͷ˿ڡ�
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8881
+        }
+      ],
+      //Upstream��ͷ��ָ���η��������ͻ��ˣ����ʵ�ַ��ͨ��http get��ʽ���ʡ�
+      //Ҳ����˵�ͻ��˷���http://localhost:8880/user ʵ����ת������http://localhost:8881/api/user�ķ���
+      "UpstreamPathTemplate": "/api/user/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+      //,
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8881
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Auth/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      //"ReRouteIsCaseSensitive": false,
+      "HttpHandlerOptions": {
+        "UseTracing": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/files/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8882
+        }
+      ],
+      "UpstreamPathTemplate": "/api/files/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+      //,
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
+    }
+  ],
+  //ȫ������
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    //"AdministrationPath": "/administration",
+    "BaseUrl": "http://localhost:8880"
+  }
+}

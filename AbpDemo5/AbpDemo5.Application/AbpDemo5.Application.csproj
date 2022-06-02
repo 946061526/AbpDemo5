@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpDemo5.Application.Contracts\AbpDemo5.Application.Contracts.csproj" />
+    <ProjectReference Include="..\AbpDemo5.Domain.Shared\AbpDemo5.Domain.Shared.csproj" />
+    <ProjectReference Include="..\AbpDemo5.Tools\AbpDemo5.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

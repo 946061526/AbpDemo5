@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="3.3.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="3.3.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="3.3.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpDemo5.Domain\AbpDemo5.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

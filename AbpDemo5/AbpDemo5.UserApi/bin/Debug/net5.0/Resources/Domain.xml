@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RootLink.DncManage.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:RootLink.DncManage.Domain.Configurations.AppSettings">
+            <summary>
+            appsettings.json配置文件数据读取类
+            </summary>
+        </member>
+        <member name="F:RootLink.DncManage.Domain.Configurations.AppSettings._config">
+            <summary>
+            配置文件的根节点
+            </summary>
+        </member>
+        <member name="M:RootLink.DncManage.Domain.Configurations.AppSettings.#cctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.EnableDb">
+            <summary>
+            EnableDb
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.ConnectionStrings">
+            <summary>
+            ConnectionStrings
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.ApiVersion">
+            <summary>
+            ApiVersion
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.ListenPort">
+            <summary>
+            监听端口
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.Configurations.AppSettings.Caching">
+            <summary>
+            Caching
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Caching.RedisConnectionString">
+            <summary>
+            RedisConnectionString
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Caching.IsOpen">
+            <summary>
+            是否开启
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.Configurations.AppSettings.JWT">
+            <summary>
+            JWT
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.Configurations.AppSettings.Email">
+            <summary>
+            Email配置
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.Host">
+            <summary>
+            Host
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.Port">
+            <summary>
+            Port
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.UseSsl">
+            <summary>
+            UseSsl
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.Configurations.AppSettings.Email.From">
+            <summary>
+            From
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.From.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.From.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.From.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.From.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.Configurations.AppSettings.Email.To">
+            <summary>
+            To
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.File.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.File.Category.CategoryName">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:RootLink.DncManage.Domain.File.Category.DisplayName">
+            <summary>
+            展示名称
+            </summary>
+        </member>
+        <member name="T:RootLink.DncManage.Domain.File.Repositories.ICategoryRepository">
+            <summary>
+            ICategoryRepository
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AbpDemo5.FileApi</name>
+    </assembly>
+    <members>
+        <member name="T:AbpDemo5.FileApi.Controllers.FilesController">
+            <summary>
+            文件相关接口
+            </summary>
+        </member>
+        <member name="F:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.version">
+            <summary>
+            当前API版本，从appsettings.json获取
+            </summary>
+        </member>
+        <member name="F:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.description">
+            <summary>
+            Swagger描述信息
+            </summary>
+        </member>
+        <member name="F:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.ApiInfos">
+            <summary>
+            Swagger分组信息，将进行遍历使用
+            </summary>
+        </member>
+        <member name="M:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddSwagger
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            UseSwaggerUI
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="P:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.SwaggerApiInfo.UrlPrefix">
+            <summary>
+            URL前缀
+            </summary>
+        </member>
+        <member name="P:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.SwaggerApiInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:AbpDemo5.FileApi.Swagger.AbpDemoSwaggerExtensions.SwaggerApiInfo.OpenApiInfo">
+            <summary>
+            <see cref="T:Microsoft.OpenApi.Models.OpenApiInfo"/>
+            </summary>
+        </member>
+        <member name="T:AbpDemo5.FileApi.Swagger.SwaggerDocumentFilter">
+            <summary>
+            对应Controller的API文档描述信息
+            </summary>
+        </member>
+    </members>
+</doc>
